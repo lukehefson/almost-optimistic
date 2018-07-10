@@ -1,0 +1,43 @@
+section {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:center; 
+  width:100%;
+}
+div {
+  display:block;
+  margin:30px;
+ }
+body {
+  background-color: black;
+  font-family: 'Inconsolata',monospace;
+  padding:2rem;
+}
+p, h1, footer, a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+a {
+  color: Gainsboro;
+}
+a:hover {
+  color: White;
+}
+footer {
+  font: 10px helvetica, sans-serif;
+  margin-top: 80px;
+  text-transform: uppercase;
+}
+.fa {
+  font-size: 16px;
+  width: 10px;
+  padding-left: 8px;
+}
+
+@media only screen and (max-width: 720px) {
+  div {
+    max-width:100%;
+  }
+}
