@@ -28,12 +28,13 @@ a:hover {
 footer {
   font: 10px helvetica, sans-serif;
   margin-top: 80px;
-  text-transform: uppercase;
 }
 .fa {
-  font-size: 16px;
-  width: 10px;
-  padding-left: 8px;
+  font-size: 20px;
+  width: 8px;
+  padding-top: 10px;
+  padding-left: 12px;
+  padding-right: 14px;
 }
 
 @media only screen and (max-width: 720px) {
