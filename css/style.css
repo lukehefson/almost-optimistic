@@ -36,6 +36,11 @@ body {
   height:100%;
   object-fit:cover;
 }
+.record-card p {
+  max-width:24ch;
+  margin:16px auto 0;
+  text-wrap:balance;
+}
 p, h1, footer, a {
   color: white;
   text-align: center;
